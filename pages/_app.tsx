@@ -8,6 +8,8 @@ import Layout from '@/components/Common/Layout'
 import Script from 'next/script'
 import * as gtag from 'lib/gtag'
 
+import 'swiper/css/bundle'
+
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
   useEffect(() => {

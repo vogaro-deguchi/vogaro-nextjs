@@ -1,18 +1,9 @@
-import Modal from '@/components/Common/Modal'
+import Swiper from '@/components/Top/Swiper'
 
 export default function Top(): JSX.Element {
   return (
     <>
-      <h1>Top</h1>
-      <Modal name="modal button">
-        <p>モーダルコンテンツ</p>
-        <p>モーダルコンテンツ</p>
-        <p>モーダルコンテンツ</p>
-        <p>モーダルコンテンツ</p>
-        <p>モーダルコンテンツ</p>
-        <p>モーダルコンテンツ</p>
-        <p>モーダルコンテンツ</p>
-      </Modal>
+      <Swiper />
     </>
   )
 }
