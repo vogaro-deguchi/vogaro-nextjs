@@ -5,8 +5,6 @@ import SwiperCore, { Pagination, Navigation } from 'swiper' //使いたい機能
 
 SwiperCore.use([Pagination, Navigation]) 
 
-import styles from './index.module.scss'
-
 // カルーセルにする画像のソースをリストにします
 const images = [
   '/assets/Top/Swiper/mv_img01_md.jpg',

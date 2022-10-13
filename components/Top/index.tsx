@@ -1,9 +1,9 @@
-import Swiper from '@/components/Top/Swiper'
+import MV from '@/components/Top/MV'
 
 export default function Top(): JSX.Element {
   return (
     <>
-      <Swiper />
+      <MV />
     </>
   )
 }
