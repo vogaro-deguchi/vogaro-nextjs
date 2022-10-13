@@ -9,6 +9,7 @@ export default function Logo() {
           src={logo}
           alt=""
           width="128px"
+          objectFit="contain"
           priority
           placeholder='blur'
         />
