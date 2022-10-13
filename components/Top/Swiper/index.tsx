@@ -18,7 +18,7 @@ const TestCarousel = () => {
   const nextRef = useRef<HTMLDivElement>(null)
   return (
     <Swiper
-      slidesPerView={1.2}
+      slidesPerView={1.1}
       pagination={{
         clickable: true,
       }}
@@ -37,7 +37,7 @@ const TestCarousel = () => {
               src={src}
               layout="responsive"
               width={720}
-              height={400}
+              height={360}
               objectFit="contain"
               alt="image"
             />
