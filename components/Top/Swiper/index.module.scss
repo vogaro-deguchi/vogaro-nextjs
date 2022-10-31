@@ -1,0 +1,50 @@
+.swiperWrapper {
+  position: relative;
+}
+
+.swiperBtnPrev,
+.swiperBtnNext {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  z-index: 5;
+  top: 50%;
+  transform:translateY(-50%);
+  border: solid 1px #ddd;
+
+  &::after {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-right: solid 2px #c3c3c3;
+    border-bottom: solid 2px #c3c3c3;
+    top: 50%;
+  }
+}
+
+.swiperBtnPrev {
+  left: 45px;
+
+  &:after {
+    left: 22px;
+    transform: translateY(-50%) rotate(135deg);
+  }
+}
+.swiperBtnNext {
+  right: 45px;
+
+  &:after {
+    right: 22px;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+}
+
+.pagination {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}
