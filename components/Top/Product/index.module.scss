@@ -1,0 +1,21 @@
+.product {
+  width: 203px;
+  margin-right: 30px;
+  .name {
+    margin: 48px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .desc {
+    margin: 10px 0 0;
+    font-size: 14px;
+    line-height: 1.692;
+  }
+  .price {
+    font-size: 13px;
+    line-height: 1.231;
+    margin: 8px 0 0;
+    font-family: "Lato", sans-serif;
+    color: #8f8f8f;
+  }
+}
