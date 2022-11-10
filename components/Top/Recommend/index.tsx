@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
-import Container from '../../Common/Container'
-import Product from '../Product'
+import Container from '@/components/Common/Container'
+import Product from '@/components/Top/Product'
 
 export default function Recommend(): JSX.Element {
   return (
