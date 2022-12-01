@@ -18,4 +18,16 @@
     font-family: "Lato", sans-serif;
     color: #8f8f8f;
   }
+  .tags {
+    margin-top: 20px;
+  }
+  .tag {
+    margin: 0 5px 5px 0;
+    color: #fff;
+    background: #444;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
 }
