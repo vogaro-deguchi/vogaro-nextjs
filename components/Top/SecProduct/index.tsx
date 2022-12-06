@@ -12,9 +12,7 @@ export default function SecProduct(): JSX.Element {
             main = "PRODUCT"
           />
           <div className={styles.productWrapper}>
-            <Product />
-            <Product />
-            <Product />
+            
           </div>
         </Container>
       </div>
