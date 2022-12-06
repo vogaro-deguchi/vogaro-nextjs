@@ -9,7 +9,8 @@ export default function SecRankig(): JSX.Element {
       <div className={styles.recommendSec}>
         <Container>
           <SecTitle 
-            main="RANKING"
+            main = "RANKING"
+            sub = "人気ランキング"
           />
           <div className={styles.productWrapper}>
             <Product />

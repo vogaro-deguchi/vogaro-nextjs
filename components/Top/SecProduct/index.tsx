@@ -10,6 +10,7 @@ export default function SecProduct(): JSX.Element {
         <Container>
           <SecTitle
             main = "PRODUCT"
+            sub = "商品を探す"
           />
           <div className={styles.productWrapper}>
             
