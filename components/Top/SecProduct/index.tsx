@@ -8,7 +8,9 @@ export default function SecProduct(): JSX.Element {
     <>
       <div className={styles.recommendSec}>
         <Container>
-          <SecTitle />
+          <SecTitle
+            main = "PRODUCT"
+          />
           <div className={styles.productWrapper}>
             <Product />
             <Product />
