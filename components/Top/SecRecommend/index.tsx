@@ -8,7 +8,9 @@ export default function SecRecommend(): JSX.Element {
     <>
       <div className={styles.recommendSec}>
         <Container>
-          <SecTitle />
+          <SecTitle 
+            main="RECOMMEND"
+          />
           <div className={styles.productWrapper}>
             <Product />
             <Product />
