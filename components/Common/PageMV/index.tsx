@@ -14,9 +14,9 @@ export default function PageMV( props:any ):JSX.Element {
             </div>
             <div className={styles.pageMv__img}>
               <Image
-                src=""
-                width={375}
-                height={240}
+                src="/assets/Skincare/skincare_mv.jpeg"
+                layout="fill"
+                objectFit="contain"
                 alt='image'
               />
             </div>

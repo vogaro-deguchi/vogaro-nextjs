@@ -1,6 +1,7 @@
 .pageMv {
   background-color: #f6f6f6;
   &__content {
+    position: relative;
     display: flex;
     align-items: center;
     height: 280px;
@@ -8,9 +9,29 @@
   }
   &__title {
     width: 50%;
-
+    &__main {
+      color: 444;
+      display: block;
+      font-size: 30px;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.05em;
+    }
+    &__sub {
+      margin: 7px 0 0;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #888;
+      letter-spacing: 0.05em;
+    }
   }
-  &_img {
-
+  &__img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 50%;
   }
 }
