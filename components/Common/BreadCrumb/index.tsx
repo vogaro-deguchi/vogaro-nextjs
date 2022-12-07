@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Container from "../Container";
 import styles from './index.module.scss'
 
 type Props = {
@@ -10,18 +11,20 @@ type Props = {
 
 export default function BreadCrumb({lists}: Props):JSX.Element {
   return (
-    <ul className={styles.breadCrumb}>
-      {lists.map(({ name = "ホーム", path = "/" }, index) => (
-        <li key={index}>
-          {lists.length - 1 !== index ? (
-            <Link href={path}>
-              <a className={styles.next}>{name}</a>
-            </Link>
-          ) : (
-            <span>{name}</span>
-          )}
-        </li>
-      ))}
-    </ul>
+    <Container>
+      <ul className={styles.breadCrumb}>
+        {lists.map(({ name = "ホーム", path = "/" }, index) => (
+          <li key={index}>
+            {lists.length - 1 !== index ? (
+              <Link href={path}>
+                <a className={styles.next}>{name}</a>
+              </Link>
+            ) : (
+              <span>{name}</span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </Container>
   )
 }
