@@ -6,12 +6,14 @@ import Nav from '@/components/Common/Header/Nav'
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Container>
-        <div className={styles.headerInner}>
-          <Logo />
-          <Nav />
-        </div>
-      </Container>
+      <div className={styles.headerWrapper}>
+        <Container>
+          <div className={styles.headerContent}>
+            <Logo />
+            <Nav />
+          </div>
+        </Container>
+      </div>
     </header>
   )
 }
