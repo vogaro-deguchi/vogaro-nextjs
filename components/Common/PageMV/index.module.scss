@@ -1,0 +1,16 @@
+.pageMv {
+  background-color: #f6f6f6;
+  &__content {
+    display: flex;
+    align-items: center;
+    height: 280px;
+    padding: 0;
+  }
+  &__title {
+    width: 50%;
+
+  }
+  &_img {
+
+  }
+}
