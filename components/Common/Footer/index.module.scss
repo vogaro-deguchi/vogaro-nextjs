@@ -3,7 +3,12 @@
   padding: 26px 0 57px;
   color: #fff;
 }
-
+.footerContainer {
+  display: flex;
+}
+.culumn {
+  flex: 1;
+}
 .menu {
   margin-top: 30px;
   &__title {
