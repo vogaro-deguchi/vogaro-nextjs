@@ -1,8 +1,8 @@
-import {useState} from 'react'
+import { useState } from 'react'
 
 import styles from './index.module.scss'
 
-export default function Accordion({name, children}:any ):JSX.Element {
+export default function Accordion ({ name, children }:any):JSX.Element {
   const [textIsOpen, setTextIsOpen] = useState(false)
   const toggleText = () => {
     setTextIsOpen((prev) => !prev)

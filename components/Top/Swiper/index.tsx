@@ -1,11 +1,11 @@
-import React, { useRef } from "react";
+import React from 'react'
 import Image from 'next/image'
-import { Swiper, SwiperSlide } from 'swiper/react' //カルーセル用のタグをインポート
-import SwiperCore, { Pagination, Navigation } from 'swiper' //使いたい機能をインポート
+import { Swiper, SwiperSlide } from 'swiper/react' // カルーセル用のタグをインポート
+import SwiperCore, { Pagination, Navigation } from 'swiper' // 使いたい機能をインポート
 
 import styles from './index.module.scss'
 
-SwiperCore.use([Pagination, Navigation]) 
+SwiperCore.use([Pagination, Navigation])
 
 // カルーセルにする画像のソースをリストにします
 const images = [
@@ -13,26 +13,26 @@ const images = [
   '/assets/Top/Swiper/mv_img03_md.jpg'
 ]
 
-export default function SwiperComponent():JSX.Element {
-  const prevRef = useRef<HTMLDivElement>(null)
-  const nextRef = useRef<HTMLDivElement>(null)
+export default function SwiperComponent ():JSX.Element {
+  // const prevRef = useRef<HTMLDivElement>(null)
+  // const nextRef = useRef<HTMLDivElement>(null)
   return (
     <div className={styles.swiperWrapper}>
       <Swiper
         slidesPerView={1.1}
         pagination={{
-          el: "#pagination",
-          clickable: true,
+          el: '#pagination',
+          clickable: true
         }}
         navigation={{
-          prevEl: "#button_prev",
-          nextEl: "#button_next"
+          prevEl: '#button_prev',
+          nextEl: '#button_next'
         }}
         loop={true}
         centeredSlides={true}
         onInit={(swiper) => {
-          swiper.navigation.init();
-          swiper.navigation.update();
+          swiper.navigation.init()
+          swiper.navigation.update()
         }}
       >
       {images.map((src: string, index: number) => {

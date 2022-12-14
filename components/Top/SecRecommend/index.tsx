@@ -3,12 +3,12 @@ import Container from '@/components/Common/Container'
 import Product from '@/components/Top/Product'
 import SecTitle from '@/components/Top/SecTitle'
 
-export default function SecRecommend(): JSX.Element {
+export default function SecRecommend (): JSX.Element {
   return (
     <>
       <div className={styles.recommendSec}>
         <Container>
-          <SecTitle 
+          <SecTitle
             main = "RECOMMEND"
             sub = "おすすめ商品"
           />

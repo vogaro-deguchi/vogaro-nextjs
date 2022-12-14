@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import logo from './assets/header_logo.png'
 
-export default function Logo() {
+export default function Logo () {
   return (
     <>
       <h1>

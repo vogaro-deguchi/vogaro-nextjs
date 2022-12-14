@@ -10,7 +10,7 @@ import * as gtag from 'lib/gtag'
 
 import 'swiper/css/bundle'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp ({ Component, pageProps }: AppProps) {
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url: any) => {
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
   }, [router.events])
-  
+
   return (
     <>
       <Script
@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             gtag('js', new Date());
             
             gtag('config', '${gtag.GA_MEASUREMENT_ID}');
-          `,
+          `
         }}
       />
       <Layout>

@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
 
-export default function SecTitle( props:any ): JSX.Element {
+export default function SecTitle (props:any): JSX.Element {
   return (
     <>
       <div className={styles.secTitle}>

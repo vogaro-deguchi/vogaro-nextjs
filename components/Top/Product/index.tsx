@@ -1,7 +1,7 @@
 import styles from './index.module.scss'
 import Image from 'next/image'
 
-export default function Product(): JSX.Element {
+export default function Product (): JSX.Element {
   return (
     <>
       <div className={styles.product}>

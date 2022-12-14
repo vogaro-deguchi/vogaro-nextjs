@@ -2,7 +2,7 @@ import styles from './index.module.scss'
 import Image from 'next/image'
 import Container from '@/components/Common/Container'
 
-export default function PageMV( props:any ):JSX.Element {
+export default function PageMV (props:any):JSX.Element {
   return (
     <>
       <div className={styles.pageMv}>

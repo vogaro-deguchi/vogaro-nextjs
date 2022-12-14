@@ -6,11 +6,7 @@ import Container from '@/components/Common/Container'
 // import Product from '@/components/Top/Product'
 import SecTitle from '@/components/Top/SecTitle'
 
-const categories = [
-
-]
-
-export default function SecProduct(): JSX.Element {
+export default function SecProduct (): JSX.Element {
   return (
     <>
       <div className={styles.productSec}>
@@ -25,7 +21,7 @@ export default function SecProduct(): JSX.Element {
               <ul className={styles.menu__lists}>
                 <li className={styles.menu__list}>
                   <a href="" className={styles.menu__link}>
-                    <Image 
+                    <Image
                       src="/assets/Top/SecProduct/example.jpg" width={48} height={48} alt="image"
                     />
                     <span>スキンケア</span>
@@ -33,7 +29,7 @@ export default function SecProduct(): JSX.Element {
                 </li>
                 <li className={styles.menu__list}>
                   <a href="" className={styles.menu__link}>
-                    <Image 
+                    <Image
                       src="/assets/Top/SecProduct/example.jpg" width={48} height={48} alt="image"
                     />
                     <span>スキンケア</span>
@@ -41,7 +37,7 @@ export default function SecProduct(): JSX.Element {
                 </li>
                 <li className={styles.menu__list}>
                   <a href="" className={styles.menu__link}>
-                    <Image 
+                    <Image
                       src="/assets/Top/SecProduct/example.jpg" width={48} height={48} alt="image"
                     />
                     <span>スキンケア</span>
@@ -49,7 +45,7 @@ export default function SecProduct(): JSX.Element {
                 </li>
                 <li className={styles.menu__list}>
                   <a href="" className={styles.menu__link}>
-                    <Image 
+                    <Image
                       src="/assets/Top/SecProduct/example.jpg" width={48} height={48} alt="image"
                     />
                     <span>スキンケア</span>

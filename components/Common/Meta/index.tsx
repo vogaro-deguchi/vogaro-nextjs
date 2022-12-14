@@ -2,12 +2,11 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 
 import { siteMeta } from '@/lib/constans'
-const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } = siteMeta
 
 import siteImg from './assets/ogp.jpg'
+const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } = siteMeta
 
-export default function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH}: any) {
-  
+export default function Meta ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }: any) {
   const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
   const desc = pageDesc ?? siteDesc
 
@@ -28,7 +27,7 @@ export default function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH}
 
       <link rel="canonical" href={url} />
       <meta property="og:url" content={url} />
-      
+
       <meta property="og:site_name" content={siteTitle} />
       <meta property="og:type" content={siteType} />
       <meta property="og:locale" content={siteLocale} />
