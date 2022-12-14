@@ -4,7 +4,12 @@
     "browser": true
   },
   "extends": ["next/core-web-vitals", "standard"],
-  "rules": {
-    "no-undef": "off"
-  }
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ]
 }
