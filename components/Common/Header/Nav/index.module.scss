@@ -6,20 +6,20 @@
 .menu {
   display: flex;
   gap: 20px;
-  
+
   @media (max-width: 767px) {
     display: none;
   }
-  
+
   li {
     position: relative;
     padding: 0 20px;
-    
+
     &::after {
       position: absolute;
       top: 2px;
       right: 0;
-      content: '';
+      content: "";
       display: inline-block;
       width: 10px;
       height: 10px;

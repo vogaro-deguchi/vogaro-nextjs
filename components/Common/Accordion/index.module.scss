@@ -3,13 +3,14 @@
   border: solid 1px #aaa;
   padding: 20px;
 }
+
 .text {
   overflow: hidden;
-  height: 0px;
+  height: 0;
   transition: height 0.5s;
   padding-top: 20px;
 }
 
 .open .text {
-  height: var(--text-height)
+  height: var(--text-height);
 }
