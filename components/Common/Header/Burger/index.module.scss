@@ -1,5 +1,6 @@
 .btn {
   display: none;
+
   @media (max-width: 767px) {
     display: block;
     position: relative;
@@ -9,10 +10,12 @@
     height: 40px;
     border-radius: 20px;
   }
+
   span {
     display: inline-block;
     position: absolute;
-    transition: all .5s;
+    transition: all 0.5s;
+
     &:nth-child(1) {
       top: 15px;
       left: 10px;
@@ -20,6 +23,7 @@
       height: 2px;
       background-color: #fff;
     }
+
     &:nth-child(2) {
       top: 23px;
       left: 10px;
@@ -29,14 +33,16 @@
     }
   }
 }
+
 .drawer {
   display: none;
+
   @media (max-width: 767px) {
     display: flex;
     position: fixed;
     inset: 0 -100% 0 100%;
-    background-color: rgba(0, 0, 0, .8);
-    transition: transform .4s;
+    background-color: rgb(0 0 0 / 80%);
+    transition: transform 0.4s;
     color: #eee;
     flex-direction: column;
     justify-content: center;
@@ -45,20 +51,24 @@
     z-index: 90;
   }
 }
+
 .open {
   .btn {
     span {
-      transition: all .5s;
+      transition: all 0.5s;
+
       &:nth-child(1) {
-        transform: translate(0px, 4px) rotate(45deg);
+        transform: translate(0, 4px) rotate(45deg);
       }
+
       &:nth-child(2) {
-        transform: translate(0px, -4px) rotate(-45deg);
+        transform: translate(0, -4px) rotate(-45deg);
         width: 20px;
       }
     }
   }
+
   .drawer {
-    transform: translateX(-100%)
+    transform: translateX(-100%);
   }
 }

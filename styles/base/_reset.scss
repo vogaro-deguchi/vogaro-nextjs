@@ -1,6 +1,7 @@
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 
 /* Reset box-model and set borders */
+
 /* ============================================ */
 
 *,
@@ -12,6 +13,7 @@
 }
 
 /* Document */
+
 /* ============================================ */
 
 /**
@@ -22,11 +24,12 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -webkit-tap-highlight-color: transparent; /* 3*/
+  text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3 */
 }
 
 /* Sections */
+
 /* ============================================ */
 
 /**
@@ -46,6 +49,7 @@ main {
 }
 
 /* Vertical rhythm */
+
 /* ============================================ */
 
 p,
@@ -61,6 +65,7 @@ dl {
 }
 
 /* Headings */
+
 /* ============================================ */
 
 h1,
@@ -75,6 +80,7 @@ h6 {
 }
 
 /* Lists (enumeration) */
+
 /* ============================================ */
 
 ul,
@@ -85,10 +91,11 @@ ol {
 }
 
 /* Lists (definition) */
+
 /* ============================================ */
 
 dt {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 dd {
@@ -96,6 +103,7 @@ dd {
 }
 
 /* Grouping content */
+
 /* ============================================ */
 
 /**
@@ -128,6 +136,7 @@ address {
 }
 
 /* Text-level semantics */
+
 /* ============================================ */
 
 /**
@@ -200,6 +209,7 @@ sup {
 }
 
 /* Replaced content */
+
 /* ============================================ */
 
 /**
@@ -215,6 +225,7 @@ iframe {
 }
 
 /* Forms */
+
 /* ============================================ */
 
 /**
@@ -227,8 +238,7 @@ button,
 input,
 optgroup,
 select,
-textarea {
-  -webkit-appearance: none; /* 1 */
+textarea { /* 1 */
   appearance: none;
   vertical-align: middle;
   color: inherit;
@@ -246,12 +256,10 @@ textarea {
  */
 
 [type="checkbox"] {
-  -webkit-appearance: checkbox;
   appearance: checkbox;
 }
 
 [type="radio"] {
-  -webkit-appearance: radio;
   appearance: radio;
 }
 
@@ -345,7 +353,7 @@ textarea {
  */
 
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 /**
@@ -354,7 +362,7 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
+  appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
@@ -367,6 +375,7 @@ label[for] {
 }
 
 /* Interactive */
+
 /* ============================================ */
 
 /*
@@ -394,6 +403,7 @@ summary {
 }
 
 /* Tables */
+
 /* ============================================ */
 
 /**
@@ -417,5 +427,5 @@ th {
 
 th {
   text-align: left;
-  font-weight: bold;
+  font-weight: 700;
 }

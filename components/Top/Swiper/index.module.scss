@@ -10,13 +10,13 @@
   background-color: #fff;
   z-index: 5;
   top: 50%;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
   border: solid 1px #ddd;
 
   &::after {
     position: absolute;
     display: inline-block;
-    content: '';
+    content: "";
     width: 10px;
     height: 10px;
     border-right: solid 2px #c3c3c3;
@@ -28,15 +28,16 @@
 .swiperBtnPrev {
   left: 45px;
 
-  &:after {
+  &::after {
     left: 22px;
     transform: translateY(-50%) rotate(135deg);
   }
 }
+
 .swiperBtnNext {
   right: 45px;
 
-  &:after {
+  &::after {
     right: 22px;
     transform: translateY(-50%) rotate(-45deg);
   }
