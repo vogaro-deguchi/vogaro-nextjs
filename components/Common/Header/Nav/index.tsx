@@ -1,10 +1,8 @@
-import Link from 'next/link'
-
 import styles from './index.module.scss'
 
 import Burger from '@/components/Common/Header/Burger'
 
-export default function Nav() {
+export default function Nav () {
   return (
     <nav className={styles.nav}>
       <ul className={styles.menu}>
@@ -17,7 +15,7 @@ export default function Nav() {
       </ul>
       <ul className={styles.list}>
         <li>
-        
+
         </li>
       </ul>
       <Burger />

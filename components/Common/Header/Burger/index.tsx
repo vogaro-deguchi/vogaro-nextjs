@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import styles from './index.module.scss'
 
-export default function Nav() {
+export default function Nav () {
   const [navIsOpen, setNavIsOpen] = useState(false)
   const toggleNav = () => {
     setNavIsOpen((prev) => !prev)

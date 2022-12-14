@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import Container from '@/components/Common/Container'
 
-export default function Footer() {
+export default function Footer () {
   return (
     <footer className={styles.footer}>
       <Container>
