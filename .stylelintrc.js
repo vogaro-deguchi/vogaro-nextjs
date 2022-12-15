@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['stylelint-order', 'stylelint-scss'],
   overrides: [
     {
-      files: ["**/*.{jsx,tsx,js}"],
+      files: ["**/*.{jsx,tsx,js,scss}"],
       customSyntax: "@stylelint/postcss-css-in-js",
     },
   ],
