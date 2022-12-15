@@ -5,23 +5,23 @@
 .swiperBtnPrev,
 .swiperBtnNext {
   position: absolute;
+  top: 50%;
+  z-index: 5;
   width: 50px;
   height: 50px;
   background-color: #fff;
-  z-index: 5;
-  top: 50%;
-  transform: translateY(-50%);
   border: solid 1px #ddd;
+  transform: translateY(-50%);
 
   &::after {
     position: absolute;
+    top: 50%;
     display: inline-block;
-    content: '';
     width: 10px;
     height: 10px;
+    content: "";
     border-right: solid 2px #c3c3c3;
     border-bottom: solid 2px #c3c3c3;
-    top: 50%;
   }
 }
 
@@ -45,7 +45,7 @@
 
 .pagination {
   position: absolute;
+  bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -50px;
 }
