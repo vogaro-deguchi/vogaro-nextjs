@@ -5,7 +5,8 @@
     @media (min-width: $min) {
       @content;
     }
-  } @else {
+  }
+  @else {
     @content;
   }
 }
@@ -17,7 +18,8 @@
     @media (max-width: $max) {
       @content;
     }
-  } @else {
+  }
+  @else {
     @content;
   }
 }
@@ -34,11 +36,13 @@
     @media (min-width: $min) and (max-width: $max) {
       @content;
     }
-  } @else if $max == null {
+  }
+  @else if $max == null {
     @include media-breakpoint-up($lower) {
       @content;
     }
-  } @else if $min == null {
+  }
+  @else if $min == null {
     @include media-breakpoint-down($upper) {
       @content;
     }
@@ -53,11 +57,13 @@
     @media (min-width: $min) and (max-width: $max) {
       @content;
     }
-  } @else if $max == null {
+  }
+  @else if $max == null {
     @include media-breakpoint-up($name) {
       @content;
     }
-  } @else if $min == null {
+  }
+  @else if $min == null {
     @include media-breakpoint-down($name) {
       @content;
     }

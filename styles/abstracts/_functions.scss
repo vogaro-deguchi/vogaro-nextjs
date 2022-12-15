@@ -18,9 +18,11 @@
 
   @if $type == string {
     $min: map-get($breakpoints, $name);
-  } @else if $type == number {
+  }
+  @else if $type == number {
     $min: $name;
-  } @else {
+  }
+  @else {
     $min: 0;
   }
 
@@ -34,9 +36,11 @@
   @if $type == string {
     $next: breakpoint-next($name, $breakpoints);
     $next: if($next, breakpoint-min($next, $breakpoints) - 0.02px, null);
-  } @else if $type == number {
+  }
+  @else if $type == number {
     $next: $name;
-  } @else {
+  }
+  @else {
     $next: 0;
   }
 
