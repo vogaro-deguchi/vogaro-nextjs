@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['stylelint-order', 'stylelint-scss'],
   overrides: [
     {
-      files: ["**/*.{jsx,tsx,js,scss}"],
+      files: ["**/*.{jsx,tsx,js}"],
       customSyntax: "@stylelint/postcss-css-in-js",
     },
   ],
@@ -69,6 +69,7 @@ module.exports = {
     "keyframes-name-pattern": null,
     "scss/at-mixin-pattern": null,
     "scss/dollar-variable-pattern": null,
-    "scss/percent-placeholder-pattern": null
+    "scss/percent-placeholder-pattern": null,
+    "no-invalid-double-slash-comments": null
   }
 }

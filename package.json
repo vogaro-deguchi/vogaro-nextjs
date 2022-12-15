@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "export": "npm run build && next export",
-    "lint:style": "stylelint '**/*.{css,scss,sass}'",
-    "lint:style:fix": "stylelint --fix '**/*.{css,scss,sass}'"
+    "lint:style": "stylelint '**/*.scss'",
+    "lint:style:fix": "stylelint --fix '**/*.scss'"
   },
   "dependencies": {
     "@types/gtag.js": "0.0.11",
