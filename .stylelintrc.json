@@ -11,12 +11,12 @@
         "ignoreAtRules": ["else"]
       }
     ],
+    "function-no-unknown": null,
     "at-rule-no-unknown": null,
     "color-named": "never",
     "declaration-no-important": true,
     "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
-    "function-calc-no-invalid": true,
     "no-empty-source": null,
     "rule-empty-line-before": [
       "always",
