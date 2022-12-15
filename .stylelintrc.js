@@ -3,6 +3,12 @@ const stylelintConfigRecessOrder = require('stylelint-config-recess-order')
 module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
   plugins: ['stylelint-order', 'stylelint-scss'],
+  overrides: [
+    {
+      files: ["**/*.{jsx,tsx,js}"],
+      customSyntax: "@stylelint/postcss-css-in-js",
+    },
+  ],
   rules: {
     'at-rule-empty-line-before': [
       'always',
