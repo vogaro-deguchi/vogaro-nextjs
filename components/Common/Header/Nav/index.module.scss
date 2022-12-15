@@ -19,13 +19,13 @@
       position: absolute;
       top: 2px;
       right: 0;
-      content: "";
       display: inline-block;
       width: 10px;
       height: 10px;
-      transform: rotate(45deg);
-      border-bottom: solid 2px #888;
+      content: "";
       border-right: solid 2px #888;
+      border-bottom: solid 2px #888;
+      transform: rotate(45deg);
     }
   }
 }

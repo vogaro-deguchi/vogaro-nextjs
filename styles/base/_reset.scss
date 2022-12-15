@@ -24,8 +24,8 @@
 
 html {
   line-height: 1.15; /* 1 */
-  text-size-adjust: 100%; /* 2 */
   -webkit-tap-highlight-color: transparent; /* 3 */
+  text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections */
@@ -74,9 +74,9 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0;
   font-size: inherit;
   font-weight: inherit;
-  margin: 0;
 }
 
 /* Lists (enumeration) */
@@ -85,8 +85,8 @@ h6 {
 
 ul,
 ol {
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -114,11 +114,11 @@ dd {
 hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
-  overflow: visible; /* 2 */
-  border-top-width: 1px;
   margin: 0;
+  overflow: visible; /* 2 */
   clear: both;
   color: inherit;
+  border-top-width: 1px;
 }
 
 /**
@@ -144,9 +144,9 @@ address {
  */
 
 a {
-  background-color: transparent;
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 /**
@@ -194,9 +194,9 @@ small {
 
 sub,
 sup {
+  position: relative;
   font-size: 75%;
   line-height: 0;
-  position: relative;
   vertical-align: baseline;
 }
 
@@ -238,17 +238,19 @@ button,
 input,
 optgroup,
 select,
-textarea { /* 1 */
-  appearance: none;
-  vertical-align: middle;
-  color: inherit;
-  font: inherit;
-  background: transparent;
+textarea {
   padding: 0;
   margin: 0;
-  border-radius: 0;
+  font: inherit;
+  color: inherit;
   text-align: inherit;
   text-transform: inherit; /* 2 */
+  vertical-align: middle;
+  background: transparent;
+  border-radius: 0;
+
+  /* 1 */
+  appearance: none;
 }
 
 /**
@@ -306,9 +308,9 @@ option {
  */
 
 fieldset {
-  margin: 0;
-  padding: 0;
   min-width: 0;
+  padding: 0;
+  margin: 0;
 }
 
 legend {
@@ -362,8 +364,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  appearance: button; /* 1 */
   font: inherit; /* 2 */
+  appearance: button; /* 1 */
 }
 
 /**
@@ -411,8 +413,8 @@ summary {
 */
 
 table {
-  border-color: inherit; /* 1 */
   border-collapse: collapse;
+  border-color: inherit; /* 1 */
 }
 
 caption {
@@ -421,11 +423,11 @@ caption {
 
 td,
 th {
-  vertical-align: top;
   padding: 0;
+  vertical-align: top;
 }
 
 th {
-  text-align: left;
   font-weight: 700;
+  text-align: left;
 }

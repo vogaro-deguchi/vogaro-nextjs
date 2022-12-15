@@ -15,10 +15,10 @@
   }
 
   .price {
-    font-size: 13px;
-    line-height: 1.231;
     margin: 8px 0 0;
     font-family: "Lato", sans-serif;
+    font-size: 13px;
+    line-height: 1.231;
     color: #8f8f8f;
   }
 
@@ -27,12 +27,12 @@
   }
 
   .tag {
-    margin: 0 5px 5px 0;
-    color: #fff;
-    background: #444;
     display: inline-flex;
     align-items: center;
     padding: 6px 10px;
+    margin: 0 5px 5px 0;
     font-size: 13px;
+    color: #fff;
+    background: #444;
   }
 }

@@ -1,14 +1,14 @@
 .open,
 .close {
-  border: solid 1px #aaa;
   padding: 20px;
+  border: solid 1px #aaa;
 }
 
 .text {
-  overflow: hidden;
   height: 0;
-  transition: height 0.5s;
   padding-top: 20px;
+  overflow: hidden;
+  transition: height 0.5s;
 }
 
 .open .text {
