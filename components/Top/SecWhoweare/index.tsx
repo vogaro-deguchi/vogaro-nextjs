@@ -17,6 +17,7 @@ export default function SecWhoweare (): JSX.Element {
             objectFit="cover"
             priority
             placeholder='blur'
+            className={styles.typo}
           />
           <div className={styles.whoweare__container}>
             <Container>
