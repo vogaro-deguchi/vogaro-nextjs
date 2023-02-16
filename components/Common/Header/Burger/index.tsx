@@ -18,6 +18,7 @@ export default function Nav () {
       <button className={styles.btn} onClick={toggleNav}>
         <span></span>
         <span></span>
+        <span></span>
       </button>
       <ul className={styles.drawer}>
         <li>

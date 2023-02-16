@@ -1,0 +1,24 @@
+.nav {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  z-index: 1;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: #fff;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  li {
+    position: relative;
+    padding: 0 20px;
+  }
+}
