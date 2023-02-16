@@ -11,14 +11,15 @@ export default function SecWhoweare (): JSX.Element {
       <div className={styles.whowewreSec}>
         <section className={styles.whoweare}>
           <h2 className={styles.title}>Who We Are</h2>
-          <Image
-            src={whoweare}
-            alt=""
-            objectFit="cover"
-            priority
-            placeholder='blur'
-            className={styles.typo}
-          />
+          <div className={styles.typo}>
+            <Image
+              src={whoweare}
+              alt=""
+              width={1527}
+              priority
+              placeholder='blur'
+            />
+          </div>
           <div className={styles.whoweare__container}>
             <Container>
               <div className={styles.whoweare__container__left}>
