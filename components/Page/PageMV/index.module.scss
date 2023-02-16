@@ -1,0 +1,25 @@
+.mvSec {
+  width: 100%;
+  height: 100vh;
+}
+
+.pageTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  transform: translate(-50%, -50%);
+
+  .main {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 80px;
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  .sub {
+    font-family: "Yu Mincho", "YuMincho", serif;
+    font-size: 16px;
+  }
+}
