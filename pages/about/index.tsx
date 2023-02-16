@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 
 import Meta from '@/components/Common/Meta'
-import Skincare from '@/components/Skincare/index'
+import About from '@/components/About/index'
 
 const Home: NextPage = () => {
   return (
     <>
       <Meta />
-      <Skincare />
+      <About />
     </>
   )
 }

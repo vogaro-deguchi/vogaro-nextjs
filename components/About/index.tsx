@@ -1,7 +1,7 @@
 import BreadCrumb from '../Common/BreadCrumb'
-import PageMV from '@/components/Common/PageMV'
+import PageMV from '@/components/Page/PageMV'
 
-export default function Skincare (): JSX.Element {
+export default function  (): JSX.Element {
   return (
     <>
       <BreadCrumb
@@ -16,8 +16,8 @@ export default function Skincare (): JSX.Element {
         ]}
       />
       <PageMV
-        main = "SKINCARE"
-        sub = "スキンケア"
+        main = "Who We Are"
+        sub = "わたしたちについて"
       />
     </>
   )
