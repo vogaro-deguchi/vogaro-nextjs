@@ -3,7 +3,8 @@ import Nav from '@/components/Common/Nav'
 import Image from 'next/image'
 import styles from './index.module.scss'
 
-import logo from './assets/mv_01.png'
+import bg from './assets/mv_01.png'
+import vogaro from './assets/vogaro.png'
 
 export default function MV (): JSX.Element {
   return (
@@ -12,7 +13,7 @@ export default function MV (): JSX.Element {
         {/* <Swiper /> */}
         <Nav></Nav>
         <Image
-          src={logo}
+          src={bg}
           alt=""
           width="100%"
           height="100%"
@@ -21,6 +22,16 @@ export default function MV (): JSX.Element {
           priority
           placeholder='blur'
         />
+        <div className={styles.mvSec__logo}>
+          <Image
+            src={vogaro}
+            alt=""
+            width="300"
+            height="388"
+            priority
+            placeholder='blur'
+          />
+        </div>
       </div>
     </>
   )
