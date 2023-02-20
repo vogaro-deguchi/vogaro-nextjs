@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import styles from './index.module.scss'
 import Container from '@/components/Common/Container'
+import Button from '@/components/Common/Button'
 import services from './assets/services.png'
 import card1 from './assets/card-1.png'
 import card2 from './assets/card-2.png'
@@ -29,7 +30,9 @@ export default function SecService (): JSX.Element {
             <li className={styles.card}>
               <h3>Webサイト制作</h3>
               <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
-              <a className={styles.view} href="">View More<span></span></a>
+              <Button 
+                  text = 'View More'
+                />
               <div className={styles.card__back}>
               <Image
                 src={card1}
@@ -43,7 +46,9 @@ export default function SecService (): JSX.Element {
             <li className={styles.card}>
               <h3>Web広告施策</h3>
               <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
-              <a className={styles.view} href="">View More<span></span></a>
+              <Button 
+                  text = 'View More'
+                />
               <div className={styles.card__back}>
                 <Image
                   src={card2}
@@ -57,7 +62,9 @@ export default function SecService (): JSX.Element {
             <li className={styles.card}>
               <h3>ソーシャルメディア施策</h3>
               <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
-              <a className={styles.view} href="">View More<span></span></a>
+              <Button 
+                  text = 'View More'
+                />
               <div className={styles.card__back}>
               <Image
                 src={card3}
