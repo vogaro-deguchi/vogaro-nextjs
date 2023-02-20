@@ -31,29 +31,31 @@ export default function SecService (): JSX.Element {
               <h3>Webサイト制作</h3>
               <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
               <Button 
-                  text = 'View More'
-                />
-              <div className={styles.card__back}>
-              <Image
-                src={card1}
-                alt=""
-                objectFit="cover"
-                priority
-                placeholder='blur'
+                text = 'View More'
               />
+              <div className={styles.card__back}>
+                <Image
+                  src={card1}
+                  alt=""
+                  objectFit="contain"
+                  layout='fill'
+                  priority
+                  placeholder='blur'
+                />
               </div>
             </li>
             <li className={styles.card}>
               <h3>Web広告施策</h3>
               <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
               <Button 
-                  text = 'View More'
-                />
+                text = 'View More'
+              />
               <div className={styles.card__back}>
                 <Image
                   src={card2}
                   alt=""
-                  objectFit="cover"
+                  objectFit="contain"
+                  layout='fill'
                   priority
                   placeholder='blur'
                 />
@@ -63,16 +65,17 @@ export default function SecService (): JSX.Element {
               <h3>ソーシャルメディア施策</h3>
               <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
               <Button 
-                  text = 'View More'
-                />
-              <div className={styles.card__back}>
-              <Image
-                src={card3}
-                alt=""
-                objectFit="cover"
-                priority
-                placeholder='blur'
+                text = 'View More'
               />
+              <div className={styles.card__back}>
+                <Image
+                  src={card3}
+                  alt=""
+                  objectFit="contain"
+                  layout='fill'
+                  priority
+                  placeholder='blur'
+                />
               </div>
             </li>
           </ul>
