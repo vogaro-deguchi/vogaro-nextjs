@@ -1,4 +1,5 @@
-import Swiper from '@/components/Top/Swiper'
+import Link from 'next/link'
+
 import Nav from '@/components/Common/Nav'
 import Image from 'next/image'
 import styles from './index.module.scss'
@@ -27,6 +28,7 @@ export default function PageMV (props:any): JSX.Element {
           <p className={styles.sub}>{props.sub}</p>
         </div>
         <div className={styles.pageLogo}>
+        <Link href="/">
           <Image
             src={logo}
             alt=""
@@ -35,6 +37,7 @@ export default function PageMV (props:any): JSX.Element {
             priority
             placeholder='blur'
           />
+          </Link >
         </div>
       </div>
     </>
