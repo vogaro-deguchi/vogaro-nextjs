@@ -18,6 +18,7 @@ export default function  (): JSX.Element {
       <PageMV
         main = "Services"
         sub = "サービス紹介"
+        image = "/assets/PageMV/service.jpg"
       />
     </>
   )

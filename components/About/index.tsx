@@ -18,6 +18,7 @@ export default function  (): JSX.Element {
       <PageMV
         main = "Who We Are"
         sub = "わたしたちについて"
+        image = "/assets/PageMV/about.jpg"
       />
     </>
   )

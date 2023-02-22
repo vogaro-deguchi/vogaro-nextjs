@@ -14,7 +14,7 @@ export default function PageMV (props:any): JSX.Element {
         {/* <Swiper /> */}
         <Nav></Nav>
         <Image
-          src={bg}
+          src={props.image}
           alt=""
           width="100%"
           height="100%"
