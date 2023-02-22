@@ -42,4 +42,3 @@ yarn dev
 ├── next-config.js
 ├── package.json
 └── README.md
-```
