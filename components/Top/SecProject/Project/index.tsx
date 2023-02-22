@@ -16,10 +16,7 @@ export default function Project (props:any): JSX.Element {
           </div>
         </Container>
         <div className={styles.boxWrap}>
-          <Box />
-          <Box />
-          <Box />
-          <Box />
+          {props.children}
         </div>
       </section>
     </>

@@ -1,7 +1,7 @@
 .box {
   position: relative;
   width: calc(100% / 4);
-  height: 100px;
+  height: calc(100% / 4);
   overflow: hidden;
   color: #fff;
   background: #fff;
