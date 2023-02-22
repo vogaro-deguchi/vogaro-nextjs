@@ -21,7 +21,6 @@ export default function PageMV (props:any): JSX.Element {
           objectFit="cover"
           layout='fill'
           priority
-          placeholder='blur'
         />
         <div className={styles.pageTitle}>
           <h2 className={styles.main}>{props.main}</h2>
@@ -35,7 +34,6 @@ export default function PageMV (props:any): JSX.Element {
             objectFit="cover"
             layout='responsive'
             priority
-            placeholder='blur'
           />
           </Link >
         </div>

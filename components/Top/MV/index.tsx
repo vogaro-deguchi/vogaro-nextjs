@@ -20,7 +20,6 @@ export default function MV (): JSX.Element {
           objectFit="cover"
           layout='fill'
           priority
-          placeholder='blur'
         />
         <div className={styles.mvSec__logo}>
           <Image
@@ -29,7 +28,6 @@ export default function MV (): JSX.Element {
             width="300"
             height="388"
             priority
-            placeholder='blur'
           />
         </div>
       </div>
