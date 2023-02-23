@@ -17,6 +17,10 @@ export default function SecProject (): JSX.Element {
             main = "テスト"
             image = 'website/detail01.jpg'
           />
+          <Box 
+            main = "テスト"
+            image = 'website/detail01.jpg'
+          />
         </Project>
         <Project
           title = "Advertising"
