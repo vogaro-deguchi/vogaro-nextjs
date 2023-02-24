@@ -130,6 +130,7 @@
 
 .secServices {
   position: relative;
+  z-index: 1;
   padding: 260px 0 180px;
   background: linear-gradient(#fff 0%, #fff 50%, #f1f5f5 50%, #f1f5f5 100%);
 
@@ -137,11 +138,12 @@
     padding: 105px 0 110px;
   }
 
-  &__back {
+  .typo {
     position: absolute;
-    top: 120px;
+    top: 100px;
+    left: 3%;
+    z-index: -1;
     width: auto;
-    height: 200px;
     overflow: hidden;
     object-fit: cover;
 
@@ -251,5 +253,23 @@
 }
 
 .secProject {
+  position: relative;
+  z-index: 1;
+  padding: 380px 0 0;
   background: #19282d;
+
+  .typo {
+    position: absolute;
+    top: 100px;
+    left: 3%;
+    z-index: -1;
+    width: auto;
+    overflow: hidden;
+    object-fit: cover;
+
+    @media (max-width: 767px) {
+      top: 60px;
+      height: 70px;
+    }
+  }
 }

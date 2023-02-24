@@ -139,6 +139,16 @@ export default function Top (): JSX.Element {
         </Container>
       </section>
       <section className={styles.secProject}>
+        <div className={styles.typo}>
+          <Image
+            src='/assets/Top/website_typo.png'
+            alt="Website"
+            width={1016}
+            height={218}
+            objectFit="contain"
+            priority
+          />
+        </div>
         <SecTitle 
           title = "Website"
           desc = "Webサイト制作実績"
@@ -160,6 +170,16 @@ export default function Top (): JSX.Element {
         />
       </section>
       <section className={styles.secProject}>
+        <div className={styles.typo}>
+          <Image
+            src='/assets/Top/ad_typo.png'
+            alt="Website"
+            width={1528}
+            height={280}
+            objectFit="contain"
+            priority
+          />
+        </div>
         <SecTitle 
           title = "Advertising"
           desc = "Web広告施策実績"
@@ -181,6 +201,17 @@ export default function Top (): JSX.Element {
         />
       </section>
       <section className={styles.secProject}>
+        <div className={styles.typo}>
+          <Image
+            src='/assets/Top/sns_typo.png'
+            alt="Website"
+            width={516}
+            height={205}
+            layout="responsive"
+            objectFit="contain"
+            priority
+          />
+        </div>
         <SecTitle 
           title = "SNS"
           desc = "ソーシャルメディア施策実績"
