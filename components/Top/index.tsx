@@ -49,7 +49,6 @@ export default function Top (): JSX.Element {
         <Container>
           <div className={styles.secWhoweare__container}>
             <div className={styles.secWhoweare__container__left}>
-              {/* <img className={styles.scrubLeft} src="./img/whoweare/whoweare-image.png" alt=""> */}
               <Image
                 src='/assets/Top/whoweare_kv.png'
                 alt=""
@@ -141,9 +140,9 @@ export default function Top (): JSX.Element {
       </section>
       <section className={styles.secProject}>
         <SecTitle 
-          title = "Service"
-          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
-          descColor = ""
+          title = "Website"
+          desc = "Webサイト制作実績"
+          desc_color = "#fff"
         />
         <ProjectBoxWrap>
           <ProjectBox 
@@ -158,8 +157,9 @@ export default function Top (): JSX.Element {
       </section>
       <section className={styles.secProject}>
         <SecTitle 
-          title = "Service"
-          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+          title = "Advertising"
+          desc = "Web広告施策実績"
+          desc_color = "#fff"
         />
         <ProjectBoxWrap>
           <ProjectBox 
@@ -174,8 +174,9 @@ export default function Top (): JSX.Element {
       </section>
       <section className={styles.secProject}>
         <SecTitle 
-          title = "Service"
-          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+          title = "SNS"
+          desc = "ソーシャルメディア施策実績"
+          desc_color = "#fff"
         />
         <ProjectBoxWrap>
           <ProjectBox 
