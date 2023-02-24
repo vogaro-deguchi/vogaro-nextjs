@@ -3,12 +3,11 @@ import Image from 'next/image'
 import Nav from '@/components/Common/Nav'
 import Container from '@/components/Common/Container'
 import Button from '@/components/Common/Button'
-import Project from '@/components/Top/Project'
-import Box from '@/components/Top/Box'
+import SecTitle from '@/components/Top/SecTitle'
+import ProjectBoxWrap from '@/components/Top/ProjectBoxWrap'
+import ProjectBox from '@/components/Top/ProjectBox'
 
 import styles from './index.module.scss'
-
-import SecProject from '@/components/Top/SecProject'
 
 export default function Top (): JSX.Element {
   return (
@@ -71,97 +70,123 @@ export default function Top (): JSX.Element {
         </Container>
       </section>
       <section className={styles.secServices}>
-      <Image
-        src="/assets/Top/services_typo.png"
-        alt=""
-        width={1096}
-        height={211}
-        objectFit="cover"
-        priority
-      />
-      <Container>
-        <div className={styles.secServices__container}>
-          <h2 className={styles.title}>Services</h2>
-          <p className={styles.desc}>解決課題や目指すゴールに合わせたベストチームでプロジェクトを推進</p>
+        <div className={styles.typo}>
+          <Image
+            src="/assets/Top/services_typo.png"
+            alt=""
+            width={1096}
+            height={211}
+            objectFit="cover"
+            priority
+          />
         </div>
-        <div className={styles.secServices__contents}>
-          <ul className={styles.cardList}>
-            <li className={styles.card}>
-              <h3>Webサイト制作</h3>
-              <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
-              <Button 
-                text = 'View More'
-              />
-              <div className={styles.card__back}>
-                <Image
-                  src="/assets/Top/services_card01.png"
-                  alt=""
-                  objectFit="contain"
-                  layout='fill'
-                  priority
+        <SecTitle 
+          title = "Service"
+          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+        />
+        <Container>
+          <div className={styles.secServices__contents}>
+            <ul className={styles.cardList}>
+              <li className={styles.card}>
+                <h3>Webサイト制作</h3>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
+                <Button 
+                  text = 'View More'
                 />
-              </div>
-            </li>
-            <li className={styles.card}>
-              <h3>Web広告施策</h3>
-              <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
-              <Button 
-                text = 'View More'
-              />
-              <div className={styles.card__back}>
-                <Image
-                  src="/assets/Top/services_card02.png"
-                  alt=""
-                  objectFit="contain"
-                  layout='fill'
-                  priority
+                <div className={styles.card__back}>
+                  <Image
+                    src="/assets/Top/services_card01.png"
+                    alt=""
+                    objectFit="contain"
+                    layout='fill'
+                    priority
+                  />
+                </div>
+              </li>
+              <li className={styles.card}>
+                <h3>Web広告施策</h3>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
+                <Button 
+                  text = 'View More'
                 />
-              </div>
-            </li>
-            <li className={styles.card}>
-              <h3>ソーシャルメディア施策</h3>
-              <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
-              <Button 
-                text = 'View More'
-              />
-              <div className={styles.card__back}>
-                <Image
-                  src="/assets/Top/services_card03.png"
-                  alt=""
-                  objectFit="contain"
-                  layout='fill'
-                  priority
+                <div className={styles.card__back}>
+                  <Image
+                    src="/assets/Top/services_card02.png"
+                    alt=""
+                    objectFit="contain"
+                    layout='fill'
+                    priority
+                  />
+                </div>
+              </li>
+              <li className={styles.card}>
+                <h3>ソーシャルメディア施策</h3>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間を確認するために入れています。</p>
+                <Button 
+                  text = 'View More'
                 />
-              </div>
-            </li>
-          </ul>
-        </div>
+                <div className={styles.card__back}>
+                  <Image
+                    src="/assets/Top/services_card03.png"
+                    alt=""
+                    objectFit="contain"
+                    layout='fill'
+                    priority
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
         </Container>
       </section>
       <section className={styles.secProject}>
-        <Project
+        <SecTitle 
           title = "Service"
-          desc = "Webサイト制作実績"
-        >
-          <Box 
+          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+          descColor = ""
+        />
+        <ProjectBoxWrap>
+          <ProjectBox 
             main = "テスト"
             image = 'website/detail01.jpg'
           />
-          <Box 
+          <ProjectBox 
             main = "テスト"
             image = 'website/detail01.jpg'
           />
-        </Project>
-        <Project
-          title = "Advertising"
-          desc = "Web広告施策実績"
-        >
-        </Project>
-        <Project
-          title = "Advertising"
-          desc = "Web広告施策実績"
-        >
-        </Project>
+        </ProjectBoxWrap>
+      </section>
+      <section className={styles.secProject}>
+        <SecTitle 
+          title = "Service"
+          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+        />
+        <ProjectBoxWrap>
+          <ProjectBox 
+            main = "テスト"
+            image = 'website/detail01.jpg'
+          />
+          <ProjectBox 
+            main = "テスト"
+            image = 'website/detail01.jpg'
+          />
+        </ProjectBoxWrap>
+      </section>
+      <section className={styles.secProject}>
+        <SecTitle 
+          title = "Service"
+          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+        />
+        <ProjectBoxWrap>
+          <ProjectBox 
+            main = "テスト"
+            image = 'website/detail01.jpg'
+          />
+          <ProjectBox 
+            main = "テスト"
+            image = 'website/detail01.jpg'
+          />
+        </ProjectBoxWrap>
       </section>
     </>
   )
