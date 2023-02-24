@@ -8,9 +8,7 @@ export default function Header () {
   return (
     <header className={styles.header}>
       <div className={styles.headerWrapper}>
-        <Container>
           <Burger></Burger>
-        </Container>
       </div>
     </header>
   )

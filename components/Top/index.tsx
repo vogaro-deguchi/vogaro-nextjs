@@ -49,7 +49,6 @@ export default function Top (): JSX.Element {
         <Container>
           <div className={styles.secWhoweare__container}>
             <div className={styles.secWhoweare__container__left}>
-              {/* <img className={styles.scrubLeft} src="./img/whoweare/whoweare-image.png" alt=""> */}
               <Image
                 src='/assets/Top/whoweare_kv.png'
                 alt=""
@@ -140,10 +139,20 @@ export default function Top (): JSX.Element {
         </Container>
       </section>
       <section className={styles.secProject}>
+        <div className={styles.typo}>
+          <Image
+            src='/assets/Top/website_typo.png'
+            alt="Website"
+            width={1016}
+            height={218}
+            objectFit="contain"
+            priority
+          />
+        </div>
         <SecTitle 
-          title = "Service"
-          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
-          descColor = ""
+          title = "Website"
+          desc = "Webサイト制作実績"
+          desc_color = "#fff"
         />
         <ProjectBoxWrap>
           <ProjectBox 
@@ -155,11 +164,26 @@ export default function Top (): JSX.Element {
             image = 'website/detail01.jpg'
           />
         </ProjectBoxWrap>
+        <Button 
+          text = 'View All'
+          text_align = 'center'
+        />
       </section>
       <section className={styles.secProject}>
+        <div className={styles.typo}>
+          <Image
+            src='/assets/Top/ad_typo.png'
+            alt="Website"
+            width={1528}
+            height={280}
+            objectFit="contain"
+            priority
+          />
+        </div>
         <SecTitle 
-          title = "Service"
-          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+          title = "Advertising"
+          desc = "Web広告施策実績"
+          desc_color = "#fff"
         />
         <ProjectBoxWrap>
           <ProjectBox 
@@ -171,11 +195,27 @@ export default function Top (): JSX.Element {
             image = 'website/detail01.jpg'
           />
         </ProjectBoxWrap>
+        <Button 
+          text = 'View All'
+          text_align = 'center'
+        />
       </section>
       <section className={styles.secProject}>
+        <div className={styles.typo}>
+          <Image
+            src='/assets/Top/sns_typo.png'
+            alt="Website"
+            width={516}
+            height={205}
+            layout="responsive"
+            objectFit="contain"
+            priority
+          />
+        </div>
         <SecTitle 
-          title = "Service"
-          desc = "課題解決や目指すゴールに合わせたベストチームでプロジェクトを推進"
+          title = "SNS"
+          desc = "ソーシャルメディア施策実績"
+          desc_color = "#fff"
         />
         <ProjectBoxWrap>
           <ProjectBox 
@@ -187,6 +227,10 @@ export default function Top (): JSX.Element {
             image = 'website/detail01.jpg'
           />
         </ProjectBoxWrap>
+        <Button 
+          text = 'View All'
+          text_align = 'center'
+        />
       </section>
     </>
   )
