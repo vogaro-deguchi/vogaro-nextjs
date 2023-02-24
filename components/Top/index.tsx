@@ -154,6 +154,10 @@ export default function Top (): JSX.Element {
             image = 'website/detail01.jpg'
           />
         </ProjectBoxWrap>
+        <Button 
+          text = 'View All'
+          text_align = 'center'
+        />
       </section>
       <section className={styles.secProject}>
         <SecTitle 
@@ -171,6 +175,10 @@ export default function Top (): JSX.Element {
             image = 'website/detail01.jpg'
           />
         </ProjectBoxWrap>
+        <Button 
+          text = 'View All'
+          text_align = 'center'
+        />
       </section>
       <section className={styles.secProject}>
         <SecTitle 
@@ -188,6 +196,10 @@ export default function Top (): JSX.Element {
             image = 'website/detail01.jpg'
           />
         </ProjectBoxWrap>
+        <Button 
+          text = 'View All'
+          text_align = 'center'
+        />
       </section>
     </>
   )
