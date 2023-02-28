@@ -42,7 +42,7 @@ export default function Top (): JSX.Element {
             alt="Who We Are"
             width={1527}
             height={217}
-            objectFit="contain"
+            objectFit="cover"
             priority
           />
         </div>
@@ -145,7 +145,7 @@ export default function Top (): JSX.Element {
             alt="Website"
             width={1016}
             height={218}
-            objectFit="contain"
+            objectFit="cover"
             priority
           />
         </div>
@@ -173,7 +173,7 @@ export default function Top (): JSX.Element {
         <div className={styles.typo}>
           <Image
             src='/assets/Top/ad_typo.png'
-            alt="Website"
+            alt="Advertising"
             width={1528}
             height={280}
             objectFit="contain"
@@ -204,11 +204,10 @@ export default function Top (): JSX.Element {
         <div className={styles.typo}>
           <Image
             src='/assets/Top/sns_typo.png'
-            alt="Website"
+            alt="SNS"
             width={516}
             height={205}
-            layout="responsive"
-            objectFit="contain"
+            objectFit="cover"
             priority
           />
         </div>
