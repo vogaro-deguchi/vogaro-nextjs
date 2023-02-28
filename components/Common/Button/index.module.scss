@@ -1,3 +1,15 @@
+@import "/styles/abstracts/functions";
+@import "/styles/abstracts/variables";
+@import "/styles/abstracts/mixins";
+
+.viewWrap {
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+}
+
 .view {
   position: relative;
   z-index: 1;

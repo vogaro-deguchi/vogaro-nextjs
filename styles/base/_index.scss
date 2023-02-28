@@ -1,5 +1,4 @@
 body {
-  overflow-x: hidden;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   line-height: 1.8;
@@ -7,6 +6,7 @@ body {
 
 main {
   min-height: 100vh;
+  overflow: hidden;
 }
 
 a,
