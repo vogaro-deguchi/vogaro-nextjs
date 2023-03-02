@@ -1,0 +1,13 @@
+@import "/src/styles/abstracts/functions";
+@import "/src/styles/abstracts/variables";
+@import "/src/styles/abstracts/mixins";
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(md) {
+    width: 1280px;
+    padding: 0 50px;
+  }
+}
