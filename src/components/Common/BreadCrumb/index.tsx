@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Container from '../Container'
+import Container from '@/src/components/Common/Container';
 import styles from './index.module.scss'
 
 type Props = {
