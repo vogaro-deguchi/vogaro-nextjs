@@ -64,6 +64,7 @@ export default function Top (): JSX.Element {
               <p className={styles.text2}>Vogaroは、企業のブランディング・マーケティング支援を展開する会社です。"ビジネスを加速する"ことをミッションとして、戦略立案から実行まで一気通貫で挑戦を支援しています。</p>
               <Button 
                 text = 'View More'
+                href = "/about"
               />
             </div>
           </div>
@@ -167,6 +168,7 @@ export default function Top (): JSX.Element {
         </ProjectBoxWrap>
         <Button 
           text = 'View All'
+          href = '/projects'
           text_align = 'center'
         />
       </section>
@@ -198,6 +200,7 @@ export default function Top (): JSX.Element {
         </ProjectBoxWrap>
         <Button 
           text = 'View All'
+          href = '/projects'
           text_align = 'center'
         />
       </section>
@@ -229,6 +232,7 @@ export default function Top (): JSX.Element {
         </ProjectBoxWrap>
         <Button 
           text = 'View All'
+          href = '/projects'
           text_align = 'center'
         />
       </section>
