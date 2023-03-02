@@ -56,10 +56,17 @@
 
   .typo {
     position: absolute;
-    top: 80px;
-    left: 35%;
+    top: 50px;
+    left: 5%;
     width: 100%;
     height: 100%;
+
+    @include media-breakpoint-up(md) {
+      top: 80px;
+      left: 35%;
+      width: 1527px;
+      height: 217px;
+    }
   }
 
   &__back {
@@ -85,20 +92,21 @@
 
     @include media-breakpoint-up(md) {
       flex-direction: row;
+      gap: 50px;
     }
 
     &__left {
-      width: 50%;
+      position: relative;
+      width: 295px;
+      height: 355px;
 
-      @media (max-width: 767px) {
-        position: relative;
-        padding-left: 20%;
+      @include media-breakpoint-up(md) {
+        width: 50%;
+        height: auto;
       }
 
       img {
-        width: auto;
-
-        @media (max-width: 767px) {
+        @include media-breakpoint-up(md) {
           height: 350px;
         }
       }
@@ -118,10 +126,10 @@
 
       p {
         margin-bottom: 50px;
-        font-family: "Yu Mincho", "YuMincho", serif;
         color: #fff;
 
         &.text1 {
+          font-family: "Yu Mincho", "YuMincho", serif;
           font-size: 18px;
 
           @include media-breakpoint-up(md) {
@@ -130,7 +138,7 @@
         }
 
         &.text2 {
-
+          font-size: 13px;
         }
       }
     }
@@ -140,34 +148,33 @@
 .secServices {
   position: relative;
   z-index: 1;
-  padding: 260px 0 180px;
+  padding: 105px 0 110px;
   background: linear-gradient(#fff 0%, #fff 50%, #f1f5f5 50%, #f1f5f5 100%);
 
-  @media (max-width: 767px) {
-    padding: 105px 0 110px;
+  @include media-breakpoint-up(md) {
+    padding: 260px 0 180px;
   }
 
   .typo {
     position: absolute;
-    top: 100px;
+    top: 60px;
     left: 3%;
     z-index: -1;
     width: auto;
     overflow: hidden;
     object-fit: cover;
 
-    @media (max-width: 767px) {
-      top: 60px;
-      height: 70px;
+    @include media-breakpoint-up(md) {
+      top: 100px;
     }
   }
 
   &__container {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 
-    @media (max-width: 767px) {
-      margin-bottom: 60px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 100px;
     }
 
     .desc {
@@ -191,6 +198,7 @@
       position: relative;
       z-index: 0;
       display: flex;
+      flex-direction: column;
       gap: 20px;
       justify-content: center;
       max-width: 1430px;
@@ -201,6 +209,9 @@
       //   display: flex;
       //   padding: 0 25px;
       // }
+      @include media-breakpoint-up(md) {
+        flex-direction: row;
+      }
 
       .card {
         position: relative;
@@ -264,21 +275,24 @@
 .secProject {
   position: relative;
   z-index: 1;
-  padding: 380px 0 0;
+  padding: 80px 0 0;
   background: #19282d;
+
+  @include media-breakpoint-up(md) {
+    padding: 380px 0 0;
+  }
 
   .typo {
     position: absolute;
-    top: 200px;
+    top: 60px;
     left: 3%;
     z-index: -1;
     width: auto;
     overflow: hidden;
     object-fit: cover;
 
-    @media (max-width: 767px) {
-      top: 60px;
-      height: 70px;
+    @include media-breakpoint-up(md) {
+      top: 200px;
     }
   }
 }

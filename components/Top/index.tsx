@@ -42,7 +42,7 @@ export default function Top (): JSX.Element {
             alt="Who We Are"
             width={1527}
             height={217}
-            objectFit="cover"
+            layout="responsive"
             priority
           />
         </div>
@@ -52,15 +52,16 @@ export default function Top (): JSX.Element {
               <Image
                 src='/assets/Top/whoweare_kv.png'
                 alt=""
-                width={495}
-                height={596}
-                objectFit="cover"
+                width={295}
+                height={355}
+                layout="responsive"
+                objectFit="contain"
                 priority
               />
             </div>
             <div className={styles.secWhoweare__container__right}>
               <p className={styles.text1}>ビジネスの成長に加速するマーケティング/クリエイティブチーム</p>
-              <p className={styles.text}>Vogaroは、企業のブランディング・マーケティング支援を展開する会社です。"ビジネスを加速する"ことをミッションとして、戦略立案から実行まで一気通貫で挑戦を支援しています。</p>
+              <p className={styles.text2}>Vogaroは、企業のブランディング・マーケティング支援を展開する会社です。"ビジネスを加速する"ことをミッションとして、戦略立案から実行まで一気通貫で挑戦を支援しています。</p>
               <Button 
                 text = 'View More'
               />

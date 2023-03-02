@@ -1,10 +1,19 @@
+@import "/styles/abstracts/functions";
+@import "/styles/abstracts/variables";
+@import "/styles/abstracts/mixins";
+
 .box {
   position: relative;
-  width: calc(100% / 4);
-  height: calc(100% / 4);
+  width: calc(100% / 2);
+  height: calc(100% / 2);
   overflow: hidden;
   color: #fff;
   background: #fff;
+
+  @include media-breakpoint-up(md) {
+    width: calc(100% / 4);
+    height: calc(100% / 4);
+  }
 
   a {
     display: block;
