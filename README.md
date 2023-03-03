@@ -1,6 +1,7 @@
 # Nextjs Web Template
 
 
+
 ## Version
 
 - node: 16.13.2
