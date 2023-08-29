@@ -1,15 +1,15 @@
-import type { NextPage } from 'next'
+import type { NextPage, Metadata } from 'next'
 
-import Meta from '@/components/Common/Meta'
 import BreadCrumb from '@/components/Common/BreadCrumb'
 import PageMV from '@/components/Page/PageMV'
 
-const Home: NextPage = () => {
+export const metadata: Metadata = {
+  title: 'Services',
+}
+
+const Services: NextPage = () => {
   return (
     <>
-      {/* <Meta 
-        pageTitle = "Services"
-      /> */}
       <BreadCrumb
         lists={[
           {
@@ -30,4 +30,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Services

@@ -1,6 +1,4 @@
-import type { NextPage } from 'next'
-
-import Meta from '@/components/Common/Meta'
+import type { NextPage, Metadata } from 'next'
 
 import Image from 'next/image'
 
@@ -13,10 +11,15 @@ import ProjectBox from '@/components/Top/ProjectBox'
 
 import styles from './index.module.scss'
 
+export const metadata: Metadata = {
+  openGraph: {
+    title: 'Vogaro株式会社',
+  }
+}
+
 const Home: NextPage = () => {
   return (
     <>
-      {/* <Meta /> */}
       <div className={styles.secMv}>
         {/* <Swiper /> */}
         <Nav></Nav>
