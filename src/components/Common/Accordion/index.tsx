@@ -22,6 +22,7 @@ export default function Accordion ({ heading, children }:any):JSX.Element {
           className={styles.text}
           ref={refText}
           style={{
+            // @ts-ignore
             '--text-height': `${refText.current.scrollHeight}px`
           }}
         >
