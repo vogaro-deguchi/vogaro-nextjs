@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import styles from './index.module.scss'
-import Container from '@/src/components/Common/Container'
+import Container from '@/components/Common/Container'
 import Box from '../ProjectBox'
 
 

@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
 
-import Container from '@/src/components/Common/Container'
+import Container from '@/components/Common/Container'
 
 export default function SecTitle (props:any): JSX.Element {
   return (

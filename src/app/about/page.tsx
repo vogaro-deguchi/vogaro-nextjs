@@ -1,15 +1,31 @@
 import type { NextPage } from 'next'
 
-import Meta from '@/src/components/Common/Meta'
-import About from '@/src/components/About/index'
+import Meta from '@/components/Common/Meta'
+import BreadCrumb from '@/components/Common/BreadCrumb'
+import PageMV from '@/components/Page/PageMV'
 
 const Home: NextPage = () => {
   return (
     <>
-      <Meta 
+      {/* <Meta 
         pageTitle = "Who We Are"
+      /> */}
+      <BreadCrumb
+        lists={[
+          {
+            name: 'ホーム',
+            path: '/'
+          },
+          {
+            name: 'スキンケア'
+          }
+        ]}
       />
-      <About />
+      <PageMV
+        main = "Who We Are"
+        sub = "わたしたちについて"
+        image = "/assets/PageMV/about.jpg"
+      />
     </>
   )
 }

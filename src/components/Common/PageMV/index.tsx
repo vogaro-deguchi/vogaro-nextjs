@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
 import Image from 'next/image'
-import Container from '@/src/components/Common/Container'
+import Container from '@/components/Common/Container'
 
 export default function PageMV (props:any):JSX.Element {
   return (

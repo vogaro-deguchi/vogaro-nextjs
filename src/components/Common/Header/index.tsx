@@ -1,8 +1,8 @@
 import styles from './index.module.scss'
-import Container from '@/src/components/Common/Container'
-import Burger from '@/src/components/Common/Header/Burger'
-import Logo from '@/src/components/Common/Header/Logo'
-import Nav from '@/src/components/Common/Nav'
+import Container from '@/components/Common/Container'
+import Burger from '@/components/Common/Header/Burger'
+import Logo from '@/components/Common/Header/Logo'
+import Nav from '@/components/Common/Nav'
 
 export default function Header () {
   return (

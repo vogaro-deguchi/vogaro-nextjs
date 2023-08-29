@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import Nav from '@/src/components/Common/Nav'
+import Nav from '@/components/Common/Nav'
 import Image from 'next/image'
 import styles from './index.module.scss'
 

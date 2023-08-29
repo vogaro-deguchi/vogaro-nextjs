@@ -4,7 +4,7 @@ import styles from './index.module.scss'
 
 import Link from 'next/link'
 
-import Container from '@/src/components/Common/Container'
+import Container from '@/components/Common/Container'
 
 import footerLogo from './assets/ft_logo.png'
 

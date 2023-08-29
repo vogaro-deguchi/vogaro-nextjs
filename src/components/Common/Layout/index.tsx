@@ -1,5 +1,5 @@
-import Header from '@/src/components/Common/Header'
-import Footer from '@/src/components/Common/Footer'
+import Header from '@/components/Common/Header'
+import Footer from '@/components/Common/Footer'
 
 export default function Layout ({ children }: any) {
   return (
