@@ -18,8 +18,6 @@ export default function Top (): JSX.Element {
         <Image
           src='/assets/Top/mv_bg.png'
           alt=""
-          width="100%"
-          height="100%"
           objectFit="cover"
           layout='fill'
           priority

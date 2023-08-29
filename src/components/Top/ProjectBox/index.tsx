@@ -11,8 +11,8 @@ export default function Box (props:any): JSX.Element {
             <Image
               src={`/assets/Top/SecProject/${props.image}`}
               alt=""
-              width="100%"
-              height="100%"
+              width="100"
+              height="100"
               layout = "responsive"
             />
           </div>

@@ -16,8 +16,6 @@ export default function PageMV (props:any): JSX.Element {
         <Image
           src={props.image}
           alt=""
-          width="100%"
-          height="100%"
           objectFit="cover"
           layout='fill'
           priority

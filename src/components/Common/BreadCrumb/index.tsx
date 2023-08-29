@@ -17,9 +17,7 @@ export default function BreadCrumb ({ lists }: Props):JSX.Element {
           <li key={index}>
             {lists.length - 1 !== index
               ? (
-              <Link href={path}>
-                <a className={styles.next}>{name}</a>
-              </Link>
+              <Link href={path} className={styles.next}>{name}</Link>
                 )
               : (
               <span>{name}</span>

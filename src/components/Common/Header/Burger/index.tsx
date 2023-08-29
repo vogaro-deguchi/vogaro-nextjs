@@ -22,19 +22,13 @@ export default function Nav () {
       </button>
       <ul className={styles.drawer}>
         <li>
-          <Link href="/">
-            <a onClick={closeNav}>Top</a>
-          </Link>
-          </li>
-          <li>
-          <Link href="/about">
-            <a onClick={closeNav}>About</a>
-          </Link>
-          </li>
-          <li>
-          <Link href="/work">
-            <a onClick={closeNav}>Work</a>
-          </Link>
+          <Link href="/" onClick={closeNav}>Top</Link>
+        </li>
+        <li>
+          <Link href="/about" onClick={closeNav}>About</Link>
+        </li>
+        <li>
+          <Link href="/work" onClick={closeNav}>Work</Link>
         </li>
       </ul>
     </div>

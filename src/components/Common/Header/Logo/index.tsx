@@ -8,7 +8,7 @@ export default function Logo () {
         <Image
           src={logo}
           alt=""
-          width="128px"
+          width="128"
           objectFit="contain"
           priority
           placeholder='blur'
