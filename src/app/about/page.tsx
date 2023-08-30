@@ -12,17 +12,6 @@ const About: NextPage = () => {
   return (
     <>
       <PageMotion>
-        <BreadCrumb
-          lists={[
-            {
-              name: 'ホーム',
-              path: '/'
-            },
-            {
-              name: 'スキンケア'
-            }
-          ]}
-        />
         <PageMV
           main = "Who We Are"
           sub = "わたしたちについて"
