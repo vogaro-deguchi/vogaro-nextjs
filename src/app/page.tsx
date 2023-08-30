@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Nav from '@/components/Common/Nav'
 import Container from '@/components/Common/Container'
 import Button from '@/components/Common/Button'
+import Slider from '@/components/Top/Slider'
 import SecTitle from '@/components/Top/SecTitle'
 import ProjectBoxWrap from '@/components/Top/ProjectBoxWrap'
 import ProjectBox from '@/components/Top/ProjectBox'
@@ -23,15 +24,8 @@ const Home: NextPage = () => {
     <>
       <PageMotion>
         <div className={styles.secMv}>
-          {/* <Swiper /> */}
           <Nav></Nav>
-          <Image
-            src='/assets/Top/mv_bg.png'
-            alt=""
-            objectFit="cover"
-            layout='fill'
-            priority
-          />
+          <Slider />
           <div className={styles.secMv__logo}>
             <Image
               src='/assets/Top/mv_logo.png'

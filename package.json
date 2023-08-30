@@ -12,6 +12,7 @@
     "lint:style:fix": "stylelint --fix '**/*.scss'"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
     "@types/gtag.js": "0.0.11",
     "@types/styled-components": "^5.1.26",
     "autoprefixer": "^10.4.13",
